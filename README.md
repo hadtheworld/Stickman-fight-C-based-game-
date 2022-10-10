@@ -1,6 +1,15 @@
 # Stickman-fight-C-based-game-
 This project holds a simple game created by me in C++ language which only needs 2 extra header files of Graphics.h and windows.h to be created. Read the Read me file for in depth knowledge.
 
+**imp**
+
+The project has 3 main code files which hold the code of the whole game:
+- main.cpp // This is tne main file which will create and run the interface of the game
+- register.h // This is self declared header file whihc has functions for registering new users and storing teir data using file handling. Finally loging in the user after verification of user data by matching from the earlier saved data. Main.cpp file will call these function to handle authentication
+- GAMECODE.h // This header file has the main game related code which will create the wole interface handle the key strokes by the user. The main.cpp file will be calling game interface from this header file only
+
+**imp**
+
 Key Words:
 Tech – Technology
 PC – Personal Computer
